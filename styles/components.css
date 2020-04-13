@@ -1,0 +1,74 @@
+.button {
+  background: transparent;
+  border: 1px solid #757575;
+
+  color: #757575;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 10px 17px;
+}
+
+form .button-send {
+  color: white;
+  font-size: 14px;
+  line-height: 17px;
+
+  background: #007AFF;
+  border: none;
+  padding: 10px 17px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+form .input {
+  width: 400px;
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 4px 0px 0px 4px;
+  padding: 0 14px;
+}
+
+.input {
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0 14px;
+}
+
+.item {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.item:hover {
+  color: #007AFF;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #1C1C1B;
+}
+
+.desc {
+  font-weight: 500;
+  font-size: 14.5px;
+  line-height: 17px;
+  letter-spacing: 0.28008px;
+
+  color: #878786;
+}
+
+.desc__form {
+  font-weight: 500;
+  font-size: 14.004px;
+  line-height: 17px;
+
+  letter-spacing: 0.28008px;
+
+  color: #000000;
+
+}
