@@ -17,14 +17,14 @@
       <img src="./img/logo.svg" alt="" class="header__logo">
     </div>
     <form action="" class="header__form">
-      <input type="text" value="Search for Products" class="input">
-      <button class="button-send">Search</button>
+      <input type="text" value="Search for Products" class="input-search">
+      <button class="button-send button-blue">Search</button>
     </form>
       <div class="header__section">
         <button class="button">Log in</button>
         <button class="button">Sign up</button>
-        <img src="./img/header_save.svg" alt="Saved">
-        <img src="./img/header_cart.svg" alt="Cart">
+        <img src="./img/header_save.svg" alt="Saved" class="item">
+        <img src="./img/header_cart.svg" alt="Cart" class="item">
       </div>
   </div>
     <nav class="nav">
@@ -54,8 +54,120 @@
 
   <section class="main__section">
 
+    <div class="main__section-enter">
+      <h3 class="subject">Name</h3>
+      <form class="main__form">
+      <input type="text" class="input" value="Mr.">
+      <input type="text" class="input" value="First Name">
+      <input type="text" class="input" value="Middle Name">
+      <input type="text" class="input" value="Last Name">
+      </form>
+    </div>
+
+    <div class="main__section-enter">
+      <h3 class="subject">Title</h3>
+      <form action="" class="main__form">
+      <input type="text" class="input" value="eg. CEO, Owner, Manager, Designer, Merchandiser">
+      </form>
+    </div>
+
+    <div class="main__section-business">
+    <h3 class="main__section-business-title">
+      Business Mailing Address
+    </h3>
+    <div class="main__section-business-line"></div>
+
+    <div class="main__section-business-enter">
+
+      <form action="" class="main__section-business-form">
+        <h3 class="subject">Street Address</h3>
+        <input type="text" class="input" value="">
+      </form>
+
+      <form action="" class="main__section-business-form">
+        <h3 class="subject">Apt / Suite / Other</h3>
+        <input type="text" class="input" value="">
+      </form>
+
+      <form action="" class="main__section-business-form">
+        <h3 class="subject">City</h3>
+        <input type="text" class="input" value="">
+      </form>
+    </div>
+
+
+      <div class="main__section-business-enter">
+
+        <form action="" class="main__section-business-form">
+          <h3 class="subject">Zip / Postal Code</h3>
+          <input type="text" class="input" value="">
+        </form>
+
+        <form action="" class="main__section-business-form">
+          <h3 class="subject">Country</h3>
+          <input type="text" class="input" value="">
+        </form>
+
+        <form action="" class="main__section-business-form">
+          <h3 class="subject">Phone Number</h3>
+          <input type="text" class="input" value="">
+          <p class="small-desc">
+            To Validate your account please enter valid
+            mobile Number to receive confirmation code
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <div class="main-send">
+      <button class="button">
+        Go Back
+      </button>
+
+      <p class="small-desc">
+        By Submitting this application, you agree to the
+      </p>
+
+
+    <button class="button-blue">
+      Submit Application
+    </button>
+    </div>
   </section>
 </main>
 
+<footer class="footer">
+  <div class="column-block">
+  <h3 class="footer__title">How We Help</h3>
+  <a href="#" class="item footer__link">Retailers</a>
+  <a href="#" class="item footer__link">Interiors Designers</a>
+  <a href="#" class="item footer__link">Product Designers</a>
+    <a href="#" class="item footer__link">Wholesalers / Importers</a>
+  <a href="#" class="item footer__link">Artisans</a>
+</div>
+
+  <div class="column-block">
+    <h3 class="footer__title">Get to Know Us</h3>
+    <a href="#" class="item footer__link">About</a>
+    <a href="#" class="item footer__link">Policies</a>
+    <a href="#" class="item footer__link">Careers</a>
+    <a href="#" class="item footer__link">Press</a>
+  </div>
+
+  <div class="column-block">
+    <h3 class="footer__title">Join the Community</h3>
+    <a href="#" class="item footer__link">Upcoming Events</a>
+    <a href="#" class="item footer__link">Become a Buyer</a>
+    <a href="#" class="item footer__link">Become a Seller</a>
+  </div>
+
+  <div class="column-block">
+    <h3 class="footer__title">Follow Us</h3>
+    <a href="#" class="item footer__link footer__link-fb">Facebook</a>
+    <a href="#" class="item footer__link footer__link-pin">Pinterest</a>
+    <a href="#" class="item footer__link footer__link-twit">Twitter</a>
+    <a href="#" class="item footer__link footer__link-inst">Instagram</a>
+  </div>
+</footer>
 </body>
 </html>
