@@ -6,6 +6,14 @@
   font-size: 14px;
   line-height: 17px;
   padding: 10px 17px;
+  border-radius: 4px;
+
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  border-color: #007AFF;
 }
 
 form .button-send {
@@ -17,6 +25,7 @@ form .button-send {
   border: none;
   padding: 10px 17px;
   border-radius: 0px 4px 4px 0px;
+  outline: none;
 }
 
 form .input {
@@ -26,6 +35,7 @@ form .input {
   box-sizing: border-box;
   border-radius: 4px 0px 0px 4px;
   padding: 0 14px;
+  outline-color: #007AFF;
 }
 
 .input {
@@ -34,6 +44,8 @@ form .input {
   box-sizing: border-box;
   border-radius: 4px;
   padding: 0 14px;
+
+  outline-color: #007AFF;
 }
 
 .item {
