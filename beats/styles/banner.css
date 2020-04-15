@@ -1,0 +1,183 @@
+.banner-title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+    margin: 15px 0 40px 0;
+}
+
+.banner {
+    position: relative;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #2B2835;
+
+    padding: 12% 5%;
+}
+
+.banner-img {
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+
+.banner-info {
+    width: 100%;
+    max-width: 510px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.wrapper-button {
+    display: flex;
+    align-items: center;
+
+}
+
+.product {
+    width: 95%;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.product__title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 55px;
+
+    position: relative;
+}
+
+.product__title::after {
+    content: "+";
+    position: absolute;
+    font-size: 40px;
+    top: -30px;
+}
+
+.product__subtitle {
+    margin: 0;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.product-color {
+    display: flex;
+}
+
+.product-color img {
+    width: 37px;
+    height: auto;
+    margin: 18px 18px 50px 0;
+}
+
+.product-color button {
+    background: none;
+    outline: none;
+    border: none;
+
+    cursor: pointer;
+}
+
+.img-checked {
+    border: 0.5px solid black;
+    border-radius: 50%;
+}
+
+.product__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__img-pic {
+    width: 700px;
+    height: 500px;
+}
+
+.product__img-pic img{
+    width: 100%;
+    height: auto;
+}
+
+.product-radio {
+    cursor: pointer;
+}
+
+/*стили для блока goods*/
+.goods {
+    display: flex;
+    justify-content: space-around;
+}
+
+.goods__cards {
+    width: 393px;
+    height: 560px;
+
+    background: #F8F8F9;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.goods__img {
+    width: 229px;
+    height: 481px;
+    display: flex;
+    align-self: flex-end;
+    padding: 40px 60px 0 0;
+
+    position: absolute;
+    z-index: 0;
+}
+
+.goods__img-two {
+    width: 298px;
+    height: 425px;
+    padding: 0 40px 0 0;
+}
+
+.goods__img img {
+    width: 100%;
+    height: auto;
+}
+
+.goods-text {
+    z-index: 1;
+    height: 100%;
+    margin: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.goods__cards-title {
+    margin: 0;
+
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.goods__cards-subtitle {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+
+
