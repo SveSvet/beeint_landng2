@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
 
-    font-family: Roboto;
+    font-family: Montserrat;
 }
 
 .link {
@@ -46,7 +46,6 @@ body {
 .nav__item {
     font-size: 15px;
     line-height: 18px;
-    letter-spacing: 1.9px;
 }
 
 .nav__item:hover {
@@ -59,7 +58,6 @@ body {
     justify-content: space-around;
     margin: 0 5% 0 0;
 }
- }
 
 .header__icon-link {
     width: 25px;

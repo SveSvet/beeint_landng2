@@ -1,3 +1,4 @@
+/*стили для баннера*/
 .banner-title {
     font-weight: bold;
     font-size: 40px;
@@ -38,6 +39,8 @@
     align-items: center;
 
 }
+
+/*тили для блока product*/
 
 .product {
     width: 95%;
