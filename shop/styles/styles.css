@@ -22,7 +22,7 @@ body {
   justify-content: space-around;
   align-items: center;
 
-  padding: 10px 0 0 0;
+  padding-top: 10px;
 }
 
 .header__form {
@@ -84,9 +84,8 @@ body {
 }
 
 .main__nav-item {
-  font-size: 14.004px;
+  font-size: 14px;
   line-height: 17px;
-  letter-spacing: 0.28008px;
 
   color: #878786;
 }
@@ -117,9 +116,6 @@ body {
   justify-content: space-around;
 }
 
-.main__section-title {
-
-}
 
 .main__section-business {
   display: flex;
@@ -131,10 +127,9 @@ body {
 
 .main__section-business-title {
   font-weight: 600;
-  font-size: 14.004px;
+  font-size: 14px;
   line-height: 17px;
 
-  letter-spacing: 0.28008px;
   text-transform: uppercase;
 
   color: #007AFF;

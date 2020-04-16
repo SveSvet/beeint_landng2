@@ -31,7 +31,7 @@
 }
 
 .button-send {
-  border-radius: 0px 4px 4px 0px;
+  border-radius: 0 4px 4px 0;
 }
 
 .input-search {
@@ -39,7 +39,7 @@
   background: #FFFFFF;
   border: 1px solid #E0E0E0;
   box-sizing: border-box;
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 4px 0 0 4px;
   padding: 0 14px;
   outline-color: #007AFF;
 }
@@ -53,9 +53,8 @@
   outline-color: #007AFF;
 
   font-weight: bold;
-  font-size: 14.004px;
+  font-size: 14px;
   line-height: 17px;
-  letter-spacing: 0.28008px;
 
   color: #9B9B9A;
   width: 100%;
@@ -81,10 +80,8 @@
 
 .subject {
   font-weight: bold;
-  font-size: 14.004px;
+  font-size: 14px;
   line-height: 17px;
-
-  letter-spacing: 0.28008px;
 
   color: #000000;
 }
@@ -93,26 +90,22 @@
   font-weight: 500;
   font-size: 14.5px;
   line-height: 17px;
-  letter-spacing: 0.28008px;
 
   color: #878786;
 }
 
 .small-desc {
   font-weight: bold;
-  font-size: 14.004px;
+  font-size: 14px;
   line-height: 17px;
-  letter-spacing: 0.28008px;
 
   color: #878786;
 }
 
 .desc__form {
   font-weight: 500;
-  font-size: 14.004px;
+  font-size: 14px;
   line-height: 17px;
-
-  letter-spacing: 0.28008px;
 
   color: #000000;
 
