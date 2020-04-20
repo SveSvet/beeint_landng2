@@ -1,0 +1,159 @@
+/*обозначение цветовых переменных*/
+:root {
+    --grey: #BAB1B1;
+    --white: #fff;
+    --subtitle: #4A4A4A;
+}
+
+/*общий стиль для всего блока*/
+body {
+    margin: 0;
+    bottom: 0;
+
+    background-color: var(--grey);
+    font-family: Arimo;
+}
+
+/*повторяющиеся стили для переиспользования*/
+
+.subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--subtitle);
+}
+
+.content-title {
+    margin: 21px 23px;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: var(--subtitle);
+}
+
+.font-inner {
+    font-size: 14px;
+    line-height: 16px;
+
+    color: var(--subtitle);
+    opacity: 0.5;
+}
+
+/*основные стили*/
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+}
+.aside {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-basis: 17%;
+    padding: 15px;
+}
+
+.aside__subtitle {
+    width: 80%;
+}
+
+.aside__card {
+    display: flex;
+    width: 195px;
+    height: 164px;
+    background-color: var(--grey);
+    margin: 15px 0;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 83%;
+    background-color: var(--grey)
+}
+
+.content-top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-top__block {
+    background-color: var(--white);
+    width: 547px;
+    height: 185px;
+}
+
+.content-top__text {
+    display: flex;
+    margin: 12px 14px;
+}
+
+.content-center-wrap {
+    background-color: var(--white);
+}
+
+.content-center {
+    display: flex;
+    background-color: var(--grey);
+    justify-content: space-evenly;
+}
+
+.content-center__three-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-center__wrap-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 25px 0;
+}
+
+.content-center__top-field {
+    width: 195px;
+    height: 240px;
+    background-color: var(--grey);
+}
+
+.content-center__test-plan {
+   display: flex;
+    flex-direction: column;
+}
+
+.content-center__test-plan-block-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 660px;
+}
+
+.content-center__test-plan-block {
+    background-color: var(--grey);
+    width: 98px;
+    height: 158px;
+    display: flex;
+    align-items: center;
+}
+
+.content-center__bottom {
+    display: flex;
+    width: 870px;
+    height: 197px;
+
+    background-color: var(--grey);
+}
+
+.content-center-right {
+    display: flex;
+    width: 195px;
+    height: 440px;
+    background-color: var(--grey);
+    margin: 25px 0;
+}
+
+
