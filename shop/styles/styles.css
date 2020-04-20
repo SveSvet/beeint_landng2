@@ -95,9 +95,9 @@ body {
   border: 1px solid #C6C6C5;
   box-sizing: border-box;
   border-radius: 4px;
-
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .main__section-name {
@@ -133,6 +133,7 @@ body {
   text-transform: uppercase;
 
   color: #007AFF;
+  padding: 10px 0;
 }
 
 .main__section-business-line {
