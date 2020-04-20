@@ -1,0 +1,75 @@
+.subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    letter-spacing: 1px;
+
+    color: #000;
+}
+
+.subtitle-white {
+    color: #FFFFFF;
+}
+
+
+.min-desc {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+
+    color: #000;
+}
+
+.min-desc-yellow {
+    color: #FFC700;
+}
+
+.button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    background: #000;
+    border-radius: 100px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    padding: 11px 48px;
+}
+
+.button:hover {
+    opacity: .8;
+}
+
+.button-yellow {
+    background: #FFC700;
+    color: #000;
+
+}
+
+.price {
+    margin: 0;
+    padding: 0 35px 0 0;
+
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000;
+}
+
+.price-white {
+    color: #F2F2F2;
+}
+
+.goods-price {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #9D8220;
+
+}
+

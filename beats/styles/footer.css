@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background: #2B2835;
+    height: 300px;
+    padding: 55px 0;
+}
+
+.column-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.column-block-follow {
+    cursor: pointer;
+}
+
+.footer__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+
+.footer__link {
+    color: #D1D1D1;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 1px;
+
+    padding: 0 0 2px 0;
+}
+
+.column-block-follow {
+    display: flex;
+
+}
