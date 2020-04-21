@@ -1,8 +1,10 @@
 /*обозначение цветовых переменных*/
 :root {
-    --grey: #BAB1B1;
+    --grey: #F2F2F2;
     --white: #fff;
     --subtitle: #4A4A4A;
+    --background: #f6f9ff;
+    --block: #EDF3FF;
 }
 
 /*общий стиль для всего блока*/
@@ -62,7 +64,7 @@ body {
     display: flex;
     width: 195px;
     height: 164px;
-    background-color: var(--grey);
+    background-color: var(--block);
     margin: 15px 0;
 
 }
@@ -96,8 +98,14 @@ body {
 
 .content-center {
     display: flex;
-    background-color: var(--grey);
+    background-color: var(--white);
     justify-content: space-evenly;
+    margin: 25px;
+}
+
+.content-center_subtitle {
+    margin: 8px 8px 0 8px;
+    display: inline-block;
 }
 
 .content-center__three-block {
@@ -116,12 +124,15 @@ body {
 .content-center__top-field {
     width: 195px;
     height: 240px;
-    background-color: var(--grey);
+    background-color: var(--background);
 }
 
 .content-center__test-plan {
    display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
+    background: #f6f9ff;
 }
 
 .content-center__test-plan-block-wrap {
@@ -130,14 +141,18 @@ body {
     justify-content: space-around;
     align-items: stretch;
     width: 660px;
+    margin: 16px 0 20px;
 }
 
 .content-center__test-plan-block {
-    background-color: var(--grey);
-    width: 98px;
+    background-color: var(--block);
+    width: 93px;
     height: 158px;
     display: flex;
     align-items: center;
+
+    border-radius: 8px;
+    padding-left: 5px;
 }
 
 .content-center__bottom {
@@ -145,15 +160,40 @@ body {
     width: 870px;
     height: 197px;
 
-    background-color: var(--grey);
+    background-color: var(--background);
 }
 
 .content-center-right {
-    display: flex;
     width: 195px;
     height: 440px;
-    background-color: var(--grey);
+    background-color: var(--background);
     margin: 25px 0;
 }
 
+.content-center__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content-center__bottom-checkbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-center__bottom-checkbox-wrap {
+    display: flex;
+}
+
+.content-center__bottom-subtitle {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 50px;
+}
+
+
+.checkbox-field-two {
+    display: flex;
+    flex-direction: column;
+}
 
