@@ -8,8 +8,8 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 640px;
-    margin: 0 auto;
-   padding-left: 20px;
+    margin: 60px auto;
+    padding-left: 20px;
 }
 
 .tabs h1 {
@@ -95,7 +95,6 @@ body {
 .tabs>label:hover {
     opacity: .8;
 }
-
 .tabs>label::before {
     content: url("./img/shapeClose.svg");
     padding-right: 10px;
@@ -112,6 +111,14 @@ label::after {
     left: -11px;
     top: 10px;
     margin: auto 0;
+}
+
+.tabs>label:nth-child(3) {
+    border-radius: 4px 4px 0 0;
+}
+
+.tabs>div:last-child {
+    border-radius: 0 0 4px 4px;
 }
 
 
