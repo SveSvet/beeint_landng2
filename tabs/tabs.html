@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./tabs.css">
+    <link rel="stylesheet" href="./fonts.css">
     <title>Document</title>
 </head>
 <body>
@@ -14,10 +15,10 @@
     <input type="checkbox" name="tab-btn" id="tab-btn-1" value="" class='tab'>
     <label for="tab-btn-1">Хочу интересную и приятную судьбу</label>
     <div id="content-1">
-        <h2>Не все люди</h2>
+        <h3>Не все люди</h3>
         <p>
             Вовсе не все люди в состоянии построить сами свою судьбу так, как им хочется. Это было
-            бы слишком просто, если бы все нажимали кнопку: «Хочу интересную и приятную судьбу»
+            бы слишком просто, если бы все нажимали кнопку: «<a href="#">Хочу интересную и приятную судьбу</a>»
             и получали бы ее, сахарным сиропом политую.
         </p>
 
@@ -37,22 +38,31 @@
     <input type="checkbox" name="tab-btn" id="tab-btn-2" value="" class='tab'>
     <label for="tab-btn-2">Чего бы это ни стоило</label>
     <div id="content-2">
-        <h2>Правил не существует</h2>
+        <h3>Правил не существует</h3>
         <p>
             Чего бы это ни стоило – никогда не поздно, никогда не рано стать тем, кем ты хочешь стать.
-            Временных рамок нет, можешь начать когда угодно. Можешь измениться или остаться
+            <a href="#">Временных рамок нет</a>, можешь начать когда угодно. Можешь измениться или остаться
             прежним – правил не существует.
         </p>
         <picture>
-            <source srcset="default.jpg">
-            <img srcset="default.jpg" alt="My default image">
+            <source srcset="./img/bookIng-mobile.png" media="(max-width: 321px)">
+            <source srcset="./img/bookImg.png">
+            <img src="./img/bookImg.png" alt="Book image">
         </picture>
     </div>
 
     <input type="checkbox" name="tab-btn" id="tab-btn-3" value="" class='tab'>
     <label for="tab-btn-3">Место в жизни</label>
     <div id="content-3">
-        Содержимое 3
+        <h3>
+            Место в жизни
+        </h3>
+        <p>
+            Любишь жизнь и одновременно понимаешь, что найти свое истинное место в ней – самая
+            сложная задача бытия. <a href="#">«Место в жизни»</a> – это не любовь или карьера. Это нечто большее,
+            внутреннее, очень свое. Это когда смотришь на небо и понимаешь, что под одним из облаков
+            твое место, пусть маленькое, но твое…
+        </p>
     </div>
 
 </div>
