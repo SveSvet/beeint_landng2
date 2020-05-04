@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/scroll.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <div class="container">
+        <div class="container-header-main">
+
+            <!--Стили для хедера-->
+            <header class="header header-desk">
+                <div class="header__menu">
+                    <img src="./img/header/desctop-logo.svg" alt="Logo" class="logo">
+                    <a href="#" class="menu link"><img src="./img/header/BurgerMenu.svg" alt="" class="menu-burger"></a>
+                    <a href="#" class="header__menu-text link">Models</a>
+                    <div class="header__menu-desktop">
+                        <a href="#" class="header__menu-text link">Dimensions</a>
+                        <a href="#" class="header__menu-text link">Facts & Figures</a>
+                        <a href="#" class="header__menu-text link">History</a>
+                        <a href="#" class="header__menu-text link">Reviews</a>
+                    </div>
+                </div>
+                <div class="header__search-wrap">
+                    <button class="header__button"><img src="./img/header/Shape.svg" class="search-img" alt="Найти"></button>
+                    <input type="search" placeholder="Search for details..." class="header__search" id="search">
+                </div>
+            </header>
+
+            <!--Стили для основного контента-->
+            <main class="main main-text">
+                <h1 class="title">Honda Sport CRF&nbsp;450RX </h1>
+                <div class="main__links">
+                    <a href="" class="main__links-video main-text link">
+                        <img src="./img/main/icon-play.svg" alt="" class="main__links-video-img">
+                        Watch film</a>
+                    <a href="" class="main__links-bookmark main-text link">
+                        <img src="./img/main/icon-book.svg" alt="" class="main__links-bookmark-img">
+                        Bookmark for later</a>
+                </div>
+                <div class="main__desk">
+                    <div class="main__desk-about">
+                        <p class="main-text-subtitle">Manufacturer</p>
+                        <p class="main-text">Honda</p>
+                    </div>
+                    <div class="main__desk-about">
+                        <p class="main-text-subtitle">Production</p>
+                        <p class="main-text">2019</p>
+                    </div>
+                    <div class="main__desk-about">
+                        <p class="main-text-subtitle">Engine</p>
+                        <p class="main-text">0.45 L PGM-FI</p>
+                    </div>
+                </div>
+                    <div class="main__desk-about-stars">
+                        <p class="main-text-subtitle main-text-subtitle-stars">Reviews</p>
+                        <div class="main-stars">
+                            <img src="./img/main/star.svg" alt="" class="main__desk-about-stars-img">
+                            <img src="./img/main/star.svg" alt="" class="main__desk-about-stars-img">
+                            <img src="./img/main/star.svg" alt="" class="main__desk-about-stars-img">
+                            <img src="./img/main/star.svg" alt="" class="main__desk-about-stars-img">
+                            <img src="./img/main/star-empty.svg" alt="" class="main__desk-about-stars-img">
+                            <p class="main__desk-about-stars-ball main-text-subtitle main-text-subtitle-stars main-text-subtitle-stars-ball">4.0/5</p>
+                        </div>
+                    </div>
+
+            </div>
+        <!--Разметка для формы в основном контенте-->
+            <div class="main__form">
+                <p class="main__desc main-text-subtitle">
+                    Sign up for our email newsletter and
+                    get the latest our company news.
+                    Get free trial for 3 month.
+                </p>
+                <form method="post" action="/posturl/newsletter/" name="form" class="form">
+                    <div class="input-wrapper">
+                        <input type="text" name="firstName" pattern="[A-Za-z]{2,30}" minlength="2" maxlength="30" placeholder="Name" class="main__input" required >
+                        <input type="email" name="userMail" pattern="[A-Za-z_\.0-9]+@[a-z0-9]+\.[a-z]{2,5}" placeholder="E-mail" class="main__input" required>
+                    </div>
+                    <button type="submit" class="button-send">Get started for free</button>
+                </form>
+            </div>
+        </main>
+
+        <!--Разметка дял футера-->
+        <footer class="footer">
+            <nav class="footer__nav">
+                <a href="" class="footer__link">Cars</a>
+                <a href="" class="footer__link">Motorcycles</a>
+                <a href="" class="footer__link">Engines</a>
+                <a href="" class="footer__link">Water moto technology</a>
+            </nav>
+            <div class="footer__end">
+                <p class="footer-text">&copy;2020, &lt;BeeInterns /&gt; </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
