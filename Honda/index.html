@@ -20,8 +20,9 @@
                 <div class="header__menu">
                     <img src="./img/header/desctop-logo.svg" alt="Logo" class="logo">
                     <a href="#" class="menu link"><img src="./img/header/BurgerMenu.svg" alt="" class="menu-burger"></a>
-                    <a href="#" class="header__menu-text link">Models</a>
+                    <a href="#" class="header__menu-text header__menu-text-mobile link">Models</a>
                     <div class="header__menu-desktop">
+                        <a href="#" class="header__menu-text link">Models</a>
                         <a href="#" class="header__menu-text link">Dimensions</a>
                         <a href="#" class="header__menu-text link">Facts & Figures</a>
                         <a href="#" class="header__menu-text link">History</a>
@@ -58,7 +59,6 @@
                         <p class="main-text-subtitle">Engine</p>
                         <p class="main-text">0.45 L PGM-FI</p>
                     </div>
-                </div>
                     <div class="main__desk-about-stars">
                         <p class="main-text-subtitle main-text-subtitle-stars">Reviews</p>
                         <div class="main-stars">
@@ -70,6 +70,7 @@
                             <p class="main__desk-about-stars-ball main-text-subtitle main-text-subtitle-stars main-text-subtitle-stars-ball">4.0/5</p>
                         </div>
                     </div>
+                </div>
 
             </div>
         <!--Разметка для формы в основном контенте-->
@@ -81,8 +82,8 @@
                 </p>
                 <form method="post" action="/posturl/newsletter/" name="form" class="form">
                     <div class="input-wrapper">
-                        <input type="text" name="firstName" pattern="[A-Za-z]{2,30}" minlength="2" maxlength="30" placeholder="Name" class="main__input" required >
-                        <input type="email" name="userMail" pattern="[A-Za-z_\.0-9]+@[a-z0-9]+\.[a-z]{2,5}" placeholder="E-mail" class="main__input" required>
+                        <input type="text" name="firstName" pattern="[A-Za-z]{2,30}" minlength="2" maxlength="30" placeholder="Name" class="main__input main__input-name" required >
+                        <input type="email" name="userMail" pattern="[A-Za-z_\.0-9]+@[a-z0-9]+\.[a-z]{2,5}" placeholder="E-mail" class="main__input main__input-mail" required>
                     </div>
                     <button type="submit" class="button-send">Get started for free</button>
                 </form>
