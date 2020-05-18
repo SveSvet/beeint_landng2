@@ -25,7 +25,7 @@ body {
 }
 
 .logo {
-    margin: 0 0 0 5%;
+    margin: 0 0 0 50px;
     width: 50px;
     height: 50px;
 
@@ -37,16 +37,10 @@ body {
     height: auto;
 }
 
-.header__nav {
-    width: 45%;
-    display: flex;
-    justify-content: space-between;
-}
-
 .nav__item {
     font-size: 15px;
     line-height: 18px;
-    letter-spacing: 1.9px;
+    margin: 0 50px;
 }
 
 .nav__item:hover {
@@ -54,18 +48,16 @@ body {
 }
 
 .header__icon {
-    width: 20%;
     display: flex;
     justify-content: space-around;
-    margin: 0 5% 0 0;
+    margin-right: 50px;
 }
- }
 
 .header__icon-link {
     width: 25px;
     height: 25px;
-
     display: inline-block;
+    margin: 0 23px;
 }
 
 .header__icon-link img {
