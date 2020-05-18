@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
+  <meta name="viewport"#
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./styles/beats.css">
@@ -20,21 +20,15 @@
       <img src="./img/header/headLogo.svg" alt="">
     </div>
     <nav class="header__nav">
-      <a href="" class="nav__item link">HEADPHONES</a>
-      <a href="" class="nav__item link">EARPHONES</a>
-      <a href="" class="nav__item link">SPEAKERS</a>
-      <a href="" class="nav__item link">EXPLORE</a>
+      <a href="#" class="nav__item link">HEADPHONES</a>
+      <a href="#" class="nav__item link">EARPHONES</a>
+      <a href="#" class="nav__item link">SPEAKERS</a>
+      <a href="#" class="nav__item link">EXPLORE</a>
     </nav>
     <div class="header__icon">
-      <a href="" class="header__icon-link">
-        <img src="./img/header/search.svg" alt="">
-      </a>
-      <a href="" class="header__icon-link">
-        <img src="./img/header/user.svg" alt="">
-      </a>
-      <a href="" class="header__icon-link">
-        <img src="./img/header/cart.svg" alt="">
-      </a>
+      <a href="#" class="header__icon-link"><img src="./img/header/search.svg" alt=""></a>
+      <a href="#" class="header__icon-link"><img src="./img/header/user.svg" alt=""></a>
+      <a href="#" class="header__icon-link"><img src="./img/header/cart.svg" alt=""></a>
     </div>
   </header>
 
@@ -43,15 +37,15 @@
 
     <!--первая часть основного контента - баннер-->
     <div class="banner">
-      
-      <div class="banner-img">
-        <img src="./img/main/Bitmap.png" alt="bitmap">
+      <div class="banner-inner">
+        <div class="banner-img">
+          <img src="./img/main/Bitmap.png" alt="bitmap">
+        </div>
+        <div class="banner-info">
+          <h2 class="subtitle subtitle-white">
+            Beats Studio3 Wireless
+          </h2>
       </div>
-
-      <div class="banner-info">
-        <h2 class="subtitle subtitle-white">
-          Beats Studio3 Wireless
-        </h2>
         <h1 class="banner-title">
           Experience your
           music like never before.
@@ -91,9 +85,9 @@
         </p>
 
         <div class="product-color">
-          <button><img src="./img/main/ovalWhite.svg" alt="" class="img-checked"></button>
-          <button><img src="./img/main/ovalRed.svg" alt=""></button>
-          <button><img src="./img/main/ovalBlack.svg" alt=""></button>
+          <button class="check-color-checked"><div class="check-color check-color-white"></div></button>
+          <button class="check-color-checked"><div class="check-color check-color-pink"></div></button>
+          <button class="check-color-checked"><div class="check-color check-color-black"></div></button>
         </div>
 
         <div class="wrapper-button">
@@ -112,18 +106,18 @@
           <img src="./img/main/BitmapProduct.png" alt="Bitmap">
         </div>
         <div class="product__img-color">
-          <input name="color" type="radio" checked class="product-radio">
-          <input name="color" type="radio" class="product-radio">
-          <input name="color" type="radio" class="product-radio">
+          <button class="product__button"></button>
+          <button class="product__button"></button>
+          <button class="product__button"></button>
         </div>
       </div>
     </div>
 
     <!--третья часть основного контента - карты товаров-->
-    <div class="goods">
+    <ul class="goods">
 
       <!--первая карточка продукта-->
-      <div class="goods__cards">
+      <li class="goods__cards">
         <div class="goods__img">
           <img src="./img/main/productCard.png" alt="Product card">
         </div>
@@ -144,10 +138,10 @@
           </button>
         </div>
       </div>
-      </div>
+      </li>
 
       <!--вторая карточка продукта-->
-      <div class="goods__cards">
+      <li class="goods__cards">
         <div class="goods__img goods__img-two">
           <img src="./img/main/productCard2.png" alt="Product card">
         </div>
@@ -168,10 +162,10 @@
             </button>
           </div>
         </div>
-      </div>
+      </li>
 
       <!--третья карточка продукта-->
-      <div class="goods__cards">
+      <li class="goods__cards">
         <div class="goods__img">
           <img src="./img/main/productCard3.png" alt="Product card">
         </div>
@@ -188,9 +182,9 @@
             </button>
           </div>
         </div>
-      </div>
+      </li>
 
-    </div>
+    </ul>
   </main>
 
   <footer class="footer">
@@ -198,7 +192,7 @@
       <img src="./img/footer/logof.svg" alt="">
     </div>
       <div class="column-block">
-        <h3 class="footer__title">Products</h3>
+        <span class="footer__title">Products</span>
         <a href="#" class="link footer__link">HEADPHONES</a>
         <a href="#" class="link footer__link">EARPHONES</a>
         <a href="#" class="link footer__link">SPEAKERS</a>
@@ -209,7 +203,7 @@
       </div>
 
       <div class="column-block">
-        <h3 class="footer__title">Support</h3>
+        <span class="footer__title">Support</span>
         <a href="#" class="link footer__link">PRODUCT HELP</a>
         <a href="#" class="link footer__link">SERVICE & WARRANTY</a>
         <a href="#" class="link footer__link">REGISTER YOUR BEATS</a>
@@ -220,7 +214,7 @@
       </div>
 
       <div class="column-block">
-        <h3 class="footer__title">Company</h3>
+        <span class="footer__title">Company</span>
         <a href="#" class="link footer__link">PRODUCT HELP</a>
         <a href="#" class="link footer__link">NEWS AND EVENTS</a>
         <a href="#" class="link footer__link">PROMOTION TERMS</a>
@@ -231,13 +225,9 @@
       </div>
 
       <div class="column-block">
-        <h3 class="footer__title">Follow Us</h3>
+        <span class="footer__title">Follow Us</span>
         <div class="column-block-follow">
           <img src="./img/footer/follows.png" alt="">
-<!--          <a href="#" class="link footer__link"></a>-->
-<!--          <a href="#" class="link footer__link"></a>-->
-<!--          <a href="#" class="link footer__link"></a>-->
-<!--          <a href="#" class="link footer__link"></a>-->
         </div>
       </div>
   </footer>
