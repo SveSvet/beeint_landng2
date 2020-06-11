@@ -67,16 +67,12 @@ p {
     font-size: 15px;
 
     color: #FFFFFF;
+    padding: 29px 0;
+    border-bottom: 1.5px solid transparent;
 }
 
-.header__menu-text:hover::before {
-    content: "";
-    position: absolute;
-    background-color: var(--white);
-
-    height: 2px;
-    width: 50px;
-    top: 100%;
+.header__menu-text:hover{
+    border-bottom: 1.5px solid var(--white);
 }
 
 .header__search-wrap {
@@ -100,7 +96,7 @@ p {
     background: none;
     border: none;
     outline: none;
-
+    color: var(--white);
 }
 
 .header__search::-webkit-input-placeholder {
@@ -214,11 +210,13 @@ p {
     border-radius: 10px;
     padding: 10px 15px;
     margin-bottom: 20px;
+    color: var(--grey);
 }
 
 .main__input::-webkit-input-placeholder {
     color: var(--grey);
-    padding-left: 17px;
+    margin: 0;
+    padding: 0;
 }
 
 .main__input-name {
