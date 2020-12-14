@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles-flex.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+</head>
+<body>
+    <div class="wrap">
+
+        <!--Разметка для бокового контента-->
+        <div class="aside">
+            <h1 class="aside__title">
+                Usability test plan Dashboard
+            </h1>
+            <span class="subtitle aside__subtitle">The sercive/product that is going to be tested</span>
+            <div class="aside__card"></div>
+            <span class="subtitle">Business requirements</span>
+            <div class="aside__card"></div>
+            <span class="subtitle">User requirements</span>
+            <div class="aside__card"></div>
+            <span class="subtitle">Location & dates of the tests</span>
+            <div class="aside__card"></div>
+        </div>
+
+        <!--Разметка для основного контента-->
+        <div class="content">
+            <span class="content-title">
+                Test Objectives
+            </span>
+            <div class="content-top">
+                <div class="content-top__block">
+                    <span class="content-top__text font-inner">
+                        Why are you doing this user testing?
+                        What are the benefits Any risks of not achieving this test?
+                    </span>
+                </div>
+                <div class="content-top__block">
+                    <span class="content-top__text font-inner">
+                       What are the goals of the usabilty test? What are the
+                        specific questions that will be answered?
+                        What hypothesis that will be tested?
+                    </span>
+                </div>
+            </div>
+
+            <span class="content-title">
+                Test Preparation
+            </span>
+            <div class="content-center">
+
+                <!--Три блока в центральном контенте, без правого асайда-->
+                <div class="content-center__three-block">
+
+                    <!--Первый блок в центре, с текcтовым полем-->
+                    <div class="content-center__wrap-top">
+                        <div class="content-center__top-field">
+                            <span class="subtitle content-center_subtitle">
+                                Teams who are involved and what
+                                are their responsibilities?
+                            </span>
+                        </div>
+
+                        <!--Разметка для шести блоков в центральном контенте-->
+                        <div class="content-center__test-plan">
+                            <span class="subtitle">
+                                Test plan / procedure
+                            </span>
+                            <span class="font-inner">
+                                List the main steps of the test procedure
+                            </span>
+                            <div class="content-center__test-plan-block-wrap">
+                                <div class="content-center__test-plan-block
+                                content-center__test-plan-block1">
+                                    1
+                                </div>
+                                <div class="content-center__test-plan-block
+                                content-center__test-plan-block2">
+                                    2
+                                </div>
+                                <div class="content-center__test-plan-block
+                                content-center__test-plan-block3">
+                                    3
+                                </div>
+                                <div class="content-center__test-plan-block
+                                content-center__test-plan-block4">
+                                    4
+                                </div>
+                                <div class="content-center__test-plan-block
+                                content-center__test-plan-block5">
+                                    5
+                                </div>
+                                <div class="content-center__test-plan-block
+                                content-center__test-plan-block6">
+                                    6
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Нижний блок-->
+                    <div class="content-center__bottom">
+                        <span class="subtitle content-center_subtitle">
+                            Review before the test (check if done)
+                        </span>
+                    <!-- Поле чекбоксов (1)-->
+                        <div class="content-center__bottom-checkbox-wrap">
+                        <div class="content-center__bottom-checkbox">
+                            <label class="content-center__bottom-label"><input type="checkbox">Email Participants</label>
+                            <span class="content-center__bottom-subtitle">
+                                If checked, write the date that was sent
+                                <p class="content-center__bottom-date">
+                                    Date:
+                                </p>
+                            </span>
+                        </div>
+
+                        <!-- Поле чекбоксов (2)-->
+                        <div class="content-center__bottom-checkbox">
+                            <span>Reminder participants about the tests</span>
+                                <p class="content-center__bottom-subtitle">
+                                    Write the number and dates of the reminders<br>
+                                    If  reminder was done, please check the box
+                                </p>
+                            <div class="checkbox-field-two">
+                                <label class="content-center__bottom-label"><input type="checkbox">Reminder #1  -  Date:</label>
+                                <label class="content-center__bottom-label"><input type="checkbox">Reminder #2  -  Date:</label>
+                            </div>
+                        </div>
+
+                        <!-- Поле чекбоксов (3)-->
+
+                        <div class="content-center__bottom-checkbox content-center__bottom-checkbox-three">
+                            <label class="content-center__bottom-label content-center__bottom-label-three">
+                                <input type="checkbox"><span>Ethical Approval prepared and sent</span></label>
+                            <label class="content-center__bottom-label content-center__bottom-label-three">
+                                <input type="checkbox"><span>Recording consent form prepared for the test session</span></label>
+                            <label class="content-center__bottom-label content-center__bottom-label-three">
+                                <input type="checkbox"><span>Usability testing checklist prepared for the test session</span></label>
+                        </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="content-center-right">
+                    <span class="subtitle content-center_subtitle">
+                        Test Tasks
+                    </span>
+                    <span class="font-inner content-center_subtitle">
+                        List the test tasks
+                    </span>
+                </div><!-- Здесь правый блок-->
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
